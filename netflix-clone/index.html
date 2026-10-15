@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar" id="topbar">
+    <div class="topbar__left">
+      <span class="logo">NETFLIX</span>
+      <nav class="menu">
+        <a href="#" class="active">Início</a>
+        <a href="#">Séries</a>
+        <a href="#">Filmes</a>
+        <a href="#">Bombando</a>
+        <a href="#">Minha lista</a>
+      </nav>
+    </div>
+    <div class="topbar__right">
+      <input type="search" placeholder="Títulos, gente e gêneros" aria-label="Buscar">
+      <span class="avatar" aria-hidden="true"></span>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero__content">
+      <h1>Stranger Things</h1>
+      <p>Quando um garoto desaparece, a cidade toda se envolve em uma investigação que revela segredos, forças sobrenaturais e uma menina muito estranha.</p>
+      <div class="hero__buttons">
+        <button class="btn btn--play">▶ Assistir</button>
+        <button class="btn btn--info">ⓘ Mais informações</button>
+      </div>
+    </div>
+  </section>
+
+  <main class="rows">
+    <section class="row">
+      <h2>Populares na Netflix</h2>
+      <div class="carousel">
+        <button class="arrow arrow--left" aria-label="Anterior">‹</button>
+        <div class="carousel__track"></div>
+        <button class="arrow arrow--right" aria-label="Próximo">›</button>
+      </div>
+    </section>
+    <section class="row">
+      <h2>Em alta</h2>
+      <div class="carousel">
+        <button class="arrow arrow--left" aria-label="Anterior">‹</button>
+        <div class="carousel__track"></div>
+        <button class="arrow arrow--right" aria-label="Próximo">›</button>
+      </div>
+    </section>
+    <section class="row">
+      <h2>Minha lista</h2>
+      <div class="carousel">
+        <button class="arrow arrow--left" aria-label="Anterior">‹</button>
+        <div class="carousel__track"></div>
+        <button class="arrow arrow--right" aria-label="Próximo">›</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">Projeto de estudo (DIO). Netflix é marca registrada de seus proprietários.</footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
